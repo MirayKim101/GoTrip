@@ -1,0 +1,38 @@
+.contacts {
+    margin-bottom: 104px;
+}
+
+.contacts__wrapper-title {
+    color: var(--aqua);
+    font-family: var(--IS);
+    font-size: 40px;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+
+.contacts__content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.contacts__content-text {
+    color: var(--black);
+    font-family: var(--RR);
+    font-size: 20px;
+    line-height: normal;
+    max-width: 536px;
+}
+
+.contacts__content-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contacts-info {
+    color: var(--black);
+    font-family: var(--RR);
+    font-size: 20px;
+    line-height: normal;
+}

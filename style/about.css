@@ -1,0 +1,33 @@
+.about {
+    margin-bottom: 97px;
+}
+
+.about__wrapper-title {
+    color: var(--aqua);
+    font-family: var(--IS);
+    font-size: 40px;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.about__wrapper-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about__wrapper-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about__wrapper-desc {
+    max-width: 545px;
+    color: var(--black);
+    font-family: var(--RR);
+    font-size: 18px;
+    line-height: normal;
+}
+

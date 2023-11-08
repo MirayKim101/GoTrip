@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+:root {
+    --IS: 'IS', sans-serif;
+    --RM: 'RM', sans-serif;
+    --RR: 'RR', sans-serif;
+    --RS: 'RS', sans-serif;
+    --black: #000000;
+    --white: #ffffff;
+    --placeholder:#898989;
+    --btn:#295E5E;
+    --bg:#3E8989;
+    --pink:#B4436C;
+    --aqua:#3E8989;
+    --grey:#EFEFEF;
+}

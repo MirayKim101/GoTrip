@@ -1,0 +1,115 @@
+.header {
+    margin-bottom: 80px;
+}
+
+.header__wrapper {
+    background: var(--bg);
+    padding: 33px 0;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav__list-item a {
+    color: var(--white);
+    font-family: var(--RM);
+    font-size: 16px;
+    line-height: normal;
+    padding-bottom: 5px;
+    transition: .1s;
+}
+
+.nav__list-item a:hover {
+    border-bottom: var(--white) solid;
+}
+
+.header__form {
+    display: flex;
+}
+
+.header__input {
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    border-radius: 20px 0px 0px 20px;
+    background: var(--white);
+}
+
+.header__btn {
+    border: none;
+    outline: none;
+    border-radius: 0px 20px 20px 0px;
+    background: var(--btn);
+    padding: 8px 14px;
+    color: var(--white);
+    font-family: var(--RR);
+    font-size: 14px;
+    line-height: normal;
+}
+
+.header__input::-webkit-input-placeholder {
+    color: var(--placeholder);
+    font-family: var(--RR);
+    font-size: 16px;
+    line-height: normal;
+}
+
+
+/* Header-content  */
+
+.header__content {
+    background-image: url('../img/header-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__content-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__content-title {
+    color: var(--white);
+    font-family: var(--RS);
+    font-size: 80px;
+    line-height: normal;
+}
+
+.header_content-desc {
+    color: var(--white);
+    font-family: var(--RM);
+    font-size: 40px;
+    line-height: normal;
+}
+
+.header__content-btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: var(--pink);
+    padding: 14px 78px;
+    border-radius: 30px;
+    color: var(--white);
+    font-family: var(--IS);
+    font-size: 18px;
+    line-height: normal;
+}
